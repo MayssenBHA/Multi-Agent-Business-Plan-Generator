@@ -1,2 +1,28 @@
 # Multi-Agent-Business-Plan-Generator
-Ce projet est un générateur de business plan basé sur un système multi-agent utilisant l'intelligence artificielle. Il permet de récupérer des informations à partir d'une requête utilisateur sur une entreprise ou un secteur d’activité, puis de générer un plan d'affaires automatisé en fonction des données collectées.
+
+This project is a business plan generator powered by a multi-agent system using artificial intelligence. It retrieves information based on a user's request about a company or industry, then automatically generates a tailored business plan using the collected data.
+
+## 🎯 Project Goal
+To automate the creation of business plans using a coordinated multi-agent system, leveraging NLP techniques, agent orchestration, and API integration.
+
+## 🏆 Context
+This project was developed as part of the Talan SummerCamp 2025.
+
+## ⚙️ Technologies Used
+🐍 Python
+🕸️ Streamlit (user interface)
+🤖 LangChain (agent orchestration)
+🌐 RapidAPI (real-time-web-search)
+📚 LLMs for text generation
+📦 dotenv for API key management
+
+## 🧠 Multi-Agent Architecture
+The system includes:
+
+An implicit orchestrator agent managed by LangGraph, coordinating the workflow between agents using a state graph (StateGraph).
+
+Specialized agents:
+
+   - An agent for retrieving company information
+
+   - An agent for generating the business plan
