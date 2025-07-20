@@ -1,0 +1,8 @@
+langchain
+langgraph
+google-generativeai
+requests
+beautifulsoup4
+fpdf
+python-dotenv
+streamlit
